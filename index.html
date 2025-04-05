@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klemme Cloud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>K. Cloud Infrastructure</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Startseite</a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="content-section active">
+            <h2>Willkommen</h2>
+            <p>Dies ist die Startseite. Hier können Sie einen allgemeinen Überblick geben.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>Über mich</h2>
+            <p>Hier können Sie Informationen über sich selbst oder Ihr Unternehmen einfügen.</p>
+            <p>Curabitur sit amet magna quam. Praesent in libero vel turpis pellentesque egestas sit amet vel nunc.</p>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2>Meine Leistungen</h2>
+            <p>Beschreiben Sie hier die Dienstleistungen oder Produkte, die Sie anbieten.</p>
+            <ul>
+                <li>Leistung 1</li>
+                <li>Leistung 2</li>
+                <li>Leistung 3</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Kontakt</h2>
+            <p>Hier können Sie Ihre Kontaktdaten oder ein Kontaktformular einfügen.</p>
+            <p>Email: info@example.com</p>
+            <p>Telefon: 0123 / 456789</p>
+             <form action="#" method="post">
+                 <div>
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" name="user_name">
+                 </div>
+                 <div>
+                     <label for="mail">E-Mail:</label>
+                     <input type="email" id="mail" name="user_email">
+                 </div>
+                 <div>
+                     <label for="msg">Nachricht:</label>
+                     <textarea id="msg" name="user_message"></textarea>
+                 </div>
+                 <div class="button">
+                     <button type="submit">Senden</button>
+                 </div>
+             </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Klemme Cloud Infrastructure. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
